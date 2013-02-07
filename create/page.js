@@ -5,7 +5,9 @@ $(function() {
     if (errors) {
       return;
     }
-    
+      
+      
+      
     json = {
       tweetText: $('#tweetText').val(),
       oncePerSession: $('#oncePerSession').is(':checked')
